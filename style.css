@@ -263,11 +263,61 @@ a {
 	height: auto;
 }
 
+.landing-row {
+}
+
+#landing-birm, #landing-collection {
+	margin-bottom: 50px;
+}
+
+#landing-intro {
+	margin: 70px auto;
+	padding: 30px 0;
+}
+
+#landing-intro h1 {
+
+}
+
+#landing-birm {
+	padding: 110px 0;
+}
+
+#landing-birm h1, #landing-birm p {
+	width: 550px;
+	margin: 20px auto;
+	color: white;
+}
+	
+#l-c-one {
+	height: 600px !important;
+}
+
+#l-c-two, #l-c-three {
+	height: 299px !important;
+}
+
+#l-c-three {
+	margin-top: 2px;
+}
+
+.l-c-product {
+	position: relative;
+	background-position: top center;
+}
+
+.l-c-product h1 {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	font-size: 1.4em;
+}
+
 /*-----------Footer---------------------------------------------------------*/
 
 #main-footer {
 	width: 100%;
-	padding: 50px 0 0;
+	padding: 0 0;
 	font-size: 0.8em;
 }
 
@@ -428,6 +478,18 @@ a {
 	#m-h-menu ul, #m-h-socials ul {
 		top: 5px;
 	}
+	
+	/*-----------Landing--------------*/
+	
+	#landing-intro {
+	  margin: 20px auto;
+	  padding: 30px 0;
+	}
+	
+	#l-c-one, #l-c-two, #l-c-three {
+		height: 250px !important;
+		margin-top: 2px;
+	}
 		
 }
 
@@ -449,11 +511,36 @@ a {
 		display: block;
 	}
 	
+	/*-----Landing-----------------*/
+	
+	#landing-intro {
+		padding: 80px 0;
+	}
+	
+	#landing-intro, #landing-intro h1 {
+	  text-align: center !important;
+	  float: none !important;
+	}
+	
+	#landing-intro p {
+		width: 95%;
+		margin: auto;
+	}
+	
+	#landing-birm {
+	  padding: 50px 0;
+	  margin: 30px 0 50px;
+	}
+
+	#landing-birm h1, #landing-birm p {
+		width: 450px;
+	}
+	
 }
 
 @media (max-width: 780px) {
 	
-	.col-2, .col-3, .col-4 {
+	.col-2, .pb-col-2, .col-3, .col-4 {
 		width: 100%;
 		float: none;
 		margin-bottom: 30px;
